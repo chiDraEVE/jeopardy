@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c89f44-871e-41a1-825c-a8239ff12fcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Category.js" afterDir="false" />
+    <list default="true" id="63c89f44-871e-41a1-825c-a8239ff12fcc" name="Default Changelist" comment="69. Linking to Categories and Styling">
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565809867165</updated>
-      <workItem from="1565809868422" duration="2580000" />
+      <workItem from="1565809868422" duration="3435000" />
     </task>
     <task id="LOCAL-00001" summary="65. Fetching Categories through jservice">
       <created>1565812146051</created>
@@ -125,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565813114646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="68. Adding Routing and a Category Component">
+      <created>1565813505892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565813505892</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +157,8 @@
     <MESSAGE value="65. Fetching Categories through jservice" />
     <MESSAGE value="66. Setting Categories through Redux" />
     <MESSAGE value="67. Connecting the App Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="67. Connecting the App Component" />
+    <MESSAGE value="68. Adding Routing and a Category Component" />
+    <MESSAGE value="69. Linking to Categories and Styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="69. Linking to Categories and Styling" />
   </component>
 </project>
