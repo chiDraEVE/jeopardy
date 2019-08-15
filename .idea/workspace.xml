@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63c89f44-871e-41a1-825c-a8239ff12fcc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565809867165</updated>
       <workItem from="1565809868422" duration="3547000" />
-      <workItem from="1565888018724" duration="523000" />
+      <workItem from="1565888018724" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="65. Fetching Categories through jservice">
       <created>1565812146051</created>
@@ -143,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565814286904</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="70. Picking a category">
+      <created>1565888765042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565888765042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +172,7 @@
     <MESSAGE value="67. Connecting the App Component" />
     <MESSAGE value="68. Adding Routing and a Category Component" />
     <MESSAGE value="69. Linking to Categories and Styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="69. Linking to Categories and Styling" />
+    <MESSAGE value="70. Picking a category" />
+    <option name="LAST_COMMIT_MESSAGE" value="70. Picking a category" />
   </component>
 </project>
