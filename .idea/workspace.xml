@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c89f44-871e-41a1-825c-a8239ff12fcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Clue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.npm test">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -85,6 +82,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="npm test" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.npm test" />
+    </list>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -105,7 +117,9 @@
       <option name="presentableId" value="Default" />
       <updated>1565809867165</updated>
       <workItem from="1565809868422" duration="3547000" />
-      <workItem from="1565888018724" duration="2514000" />
+      <workItem from="1565888018724" duration="3195000" />
+      <workItem from="1565955279929" duration="143000" />
+      <workItem from="1565958100482" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="65. Fetching Categories through jservice">
       <created>1565812146051</created>
@@ -156,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565889386678</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="72. Creating a Clue Component">
+      <created>1565891436301</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565891436302</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +204,7 @@
     <MESSAGE value="69. Linking to Categories and Styling" />
     <MESSAGE value="70. Picking a category" />
     <MESSAGE value="71. Fetching Category Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="71. Fetching Category Data" />
+    <MESSAGE value="72. Creating a Clue Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="72. Creating a Clue Component" />
   </component>
 </project>
