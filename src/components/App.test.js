@@ -21,4 +21,5 @@ describe('App', () => {
             expect(linkTitle.text()).toEqual(categories[index].title);
         });
     });
+    
 });
