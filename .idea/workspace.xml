@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c89f44-871e-41a1-825c-a8239ff12fcc" name="Default Changelist" comment="76. Testing the Clue Component's Structure">
-      <change afterPath="$PROJECT_DIR$/src/components/Clue.test.js" afterDir="false" />
+    <list default="true" id="63c89f44-871e-41a1-825c-a8239ff12fcc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/fixtures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/fixtures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clue.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clue.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm test">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -130,7 +128,8 @@
       <workItem from="1565888018724" duration="3195000" />
       <workItem from="1565955279929" duration="143000" />
       <workItem from="1565958100482" duration="2927000" />
-      <workItem from="1566040038398" duration="956000" />
+      <workItem from="1566040038398" duration="3914000" />
+      <workItem from="1566141882386" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="65. Fetching Categories through jservice">
       <created>1565812146051</created>
@@ -202,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565959685735</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="76. Testing the Clue Component's Structure">
+      <created>1566041011844</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566041011844</updated>
+    </task>
+    <task id="LOCAL-00012" summary="77. Simulating the Clue's Behavior">
+      <created>1566057675347</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566057675347</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +246,7 @@
     <MESSAGE value="74. Setting Up Tests for Jeopardy" />
     <MESSAGE value="75. Testing the Jeopardy App Component" />
     <MESSAGE value="76. Testing the Clue Component's Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="76. Testing the Clue Component's Structure" />
+    <MESSAGE value="77. Simulating the Clue's Behavior" />
+    <option name="LAST_COMMIT_MESSAGE" value="77. Simulating the Clue's Behavior" />
   </component>
 </project>

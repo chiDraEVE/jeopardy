@@ -3,13 +3,13 @@ import {shallow} from 'enzyme';
 import Clue from './Clue';
 import {clue} from "../data/fixtures";
 
-const props = {clue};
+let props = {clue};
 
 describe('Clue', () => {
-    const clueWrapper = shallow(<Clue {...props}/>);
+    let clueWrapper = shallow(<Clue {...props}/>);
 
     it('renders the clue value', () => {
-        console.log(clueWrapper.debug());
+        // console.log(clueWrapper.debug());
         expect(clueWrapper.find('h4').text()).toEqual(clue.value.toString())
     });
 
@@ -27,5 +27,53 @@ describe('Clue', () => {
 
     it('initializes the `reveal` state to be `false`', () => {
         expect(clueWrapper.state().reveal).toBe(false);
+    });
+
+    describe('when rendering a clue with no value', () => {
+      beforeEach(() => {
+        props.clue.value = undefined;
+
+          clueWrapper = shallow(<Clue {...props}/>);
+      });
+
+        it('displays the value as `unknown`', () => {
+            expect(clueWrapper.find('h4').text()).toEqual('unknown');
+        });
+    });
+
+    describe('when clicking on the clue', () => {
+      beforeEach(() => clueWrapper.simulate('click'));
+
+        it('sets the `reveal` state to be `true`', () => {
+            expect(clueWrapper.state().reveal)
+        });
+
+        it('sets the answer with the `text-revealed` class', () => {
+            expect(clueWrapper.find('h5').at(1).hasClass('text-revealed')).toBe(true);
+        });
+    });
+
+    describe('when rendering a clue with no value',() => {
+        beforeEach(() => {
+            props.clue.value = undefined;
+
+            clueWrapper = shallow(<Clue {...props}/>);
+        });
+
+        it('displays the value `unknown`',() => {
+          expect(clueWrapper.find('h4').text()).toEqual('unknown');
+        });
+    });
+
+    describe('when clicking on the clue',() => {
+        beforeEach(() => clueWrapper.simulate('click'));
+
+        it('sets the `reveal` state to be `false`',() => {
+          expect(clueWrapper.state().reveal).toBe(true);
+        });
+
+        it('sets the answer with the `text-revealed` class',() => {
+          expect(clueWrapper.find('h5').at(1).hasClass('text-revealed')).toBe(true);
+        });
     });
 });
