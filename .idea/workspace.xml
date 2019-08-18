@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c89f44-871e-41a1-825c-a8239ff12fcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Category.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clue.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clue.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +130,7 @@
       <workItem from="1565955279929" duration="143000" />
       <workItem from="1565958100482" duration="2927000" />
       <workItem from="1566040038398" duration="3914000" />
-      <workItem from="1566141882386" duration="1363000" />
+      <workItem from="1566141882386" duration="2254000" />
     </task>
     <task id="LOCAL-00001" summary="65. Fetching Categories through jservice">
       <created>1565812146051</created>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566057675347</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="77. Simulating the Clue's Behavior">
+      <created>1566144159179</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566144159179</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
